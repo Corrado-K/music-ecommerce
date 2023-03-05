@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Poppins';
+  background: rgb(1,57,110);
+  background: linear-gradient(0deg, rgb(2, 43, 82) 0%, rgb(2, 11, 19) 100%); 
+}
+
+/* .home{
+  background: rgb(1,57,110);
+  background: linear-gradient(0deg, rgb(2, 43, 82) 0%, rgb(0, 37, 74) 0%, rgb(2, 11, 19) 100%); 
+} */
+
+
+.glass{
+  background: rgb(1,57,110);
+  background: linear-gradient(135deg, rgba(107, 107, 107, 0.636) 0%, rgba(24, 24, 24, 0.663) 100%); 
+}
+
+.tinted-glass{
+  background: rgb(1,57,110);
+  background: linear-gradient(185deg, rgb(74, 74, 74) 0%, rgba(129, 129, 129, 0.663) 100%); 
+}
+
